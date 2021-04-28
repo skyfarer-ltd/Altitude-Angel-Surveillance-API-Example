@@ -49,19 +49,20 @@ request = requests.Request('POST', URL_TOKEN , data = payload).prepare()
 
 logging.info('Making request..')
 response = session.send( request )
+logging.info(response)
 
 if response.ok is False:
     raise RuntimeError("Response not OK!")
 
-logging.info(response)
+
+# Grab the JSON token
 response_json = response.json()
-
 response_json.update({"_timestamp": str(now.isoformat()) })
-
 with open(PATH_TOKEN, 'w') as f:
     json.dump(response_json, f, indent=1)
 
+
+
+
 logging.info(f'Wrote token to {PATH_TOKEN}')
-
-
     
