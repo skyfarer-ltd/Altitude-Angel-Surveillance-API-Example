@@ -9,3 +9,4 @@ __pycache__/
 *.log
 token.json
 secrets.py
+payload.json

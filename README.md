@@ -1,8 +1,8 @@
-# Altitude Angel Token Authentication Example
+# Altitude Angel Surveillance API Example
 
-Most of the flow was lifted from the Altitude Angel [Surveillance-API documentation](https://docs.altitudeangel.com/docs/surveillance-api) & the Scout Source code
+Most of the flow was lifted from the Altitude Angel [Surveillance-API documentation](https://docs.altitudeangel.com/docs/surveillance-api) & the [Scout Firmware](https://github.com/AltitudeAngel/Scout). 
 
-Ultimately you should appear on [https://www.dronesafetymap.com/](https://www.dronesafetymap.com/)
+Ultimately the goal is to appear on [https://www.dronesafetymap.com/](https://www.dronesafetymap.com/)
 
 ## Quickstart
 
@@ -13,7 +13,7 @@ Ultimately you should appear on [https://www.dronesafetymap.com/](https://www.dr
 5. `python3 src/02_post_gps_data_example.py`
 
 
-## Obtaining OAUTH2 credentials
+## Obtaining credentials
 
 
 1. Create an account at [AltitudeAngel](https://www.altitudeangel.com/developer-portal/)
@@ -37,6 +37,3 @@ Ultimately you should appear on [https://www.dronesafetymap.com/](https://www.dr
 - [https://www.altitudeangel.com/developer-portal/](https://www.altitudeangel.com/developer-portal/)
 - [https://docs.altitudeangel.com/docs/surveillance-api](https://docs.altitudeangel.com/docs/surveillance-api)
 - [https://docs.altitudeangel.com/docs/oauth2-bearer-tokens](https://docs.altitudeangel.com/docs/oauth2-bearer-tokens)
-
-
-
